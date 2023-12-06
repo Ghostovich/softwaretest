@@ -253,48 +253,51 @@
       </section>
       <section class="slider center body">
         <div class="slider__block">
-          <img
-            src="/test/images/sliderImg.png"
-            alt="img"
-            class="slider__block__img"
-          />
-          <div class="slider__block__points">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="10"
-              height="10"
-              viewBox="0 0 10 10"
-              fill="none"
-            >
-              <circle cx="5.00067" cy="5" r="5" fill="#EBEBEC" />
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="10"
-              height="10"
-              viewBox="0 0 10 10"
-              fill="none"
-            >
-              <circle cx="5.00067" cy="5" r="5" fill="#EBEBEC" />
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="10"
-              height="10"
-              viewBox="0 0 10 10"
-              fill="none"
-            >
-              <circle cx="5.00067" cy="5" r="5" fill="#EBEBEC" />
-            </svg>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="10"
-              height="10"
-              viewBox="0 0 10  10"
-              fill="none"
-            >
-              <circle cx="5.00067" cy="5" r="5" fill="#EBEBEC" />
-            </svg>
+          <div class="slider__block__part fader">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTvFsL6DFw6iZ9Gi2Do6Y0zwW9c2snV4J4sSGzhN0VwFVJzL8pU-cMUaVdtaWri0qQNRk&usqp=CAU"
+              class="slider__block__img"
+            />
+          </div>
+
+          <div class="slider__block__part fader">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGJdAkfAskJ0credURVetWb6E8xMdXSPiIq8zWhOGDyFrenHKn5TL6B2xMqiNZ31ZUGwU&usqp=CAU"
+              class="slider__block__img"
+            />
+          </div>
+
+          <div class="slider__block__part fader">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5kB5FmdTzZYVu7U5VxFCDN6EtX1xzoYJSSuxsrtswoHfnXn84iV012RO0XZmhvANE73E&usqp=CAU"
+              class="slider__block__img"
+            />
+          </div>
+
+          <div class="slider__block__part fader">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6xzzg500tStqMmFTSaHz1xAwDWYKy1IvltrAUPUZyMwkN5qv4uybPYvpG_8zA5U1zde8&usqp=CAU"
+              class="slider__block__img"
+            />
+          </div>
+
+          <div style="text-align: center">
+            <span
+              class="slider__block__part__dot"
+              onclick="currentSlide(1)"
+            ></span>
+            <span
+              class="slider__block__part__dot"
+              onclick="currentSlide(2)"
+            ></span>
+            <span
+              class="slider__block__part__dot"
+              onclick="currentSlide(3)"
+            ></span>
+            <span
+              class="slider__block__part__dot"
+              onclick="currentSlide(4)"
+            ></span>
           </div>
         </div>
         <div class="slider__discription">
@@ -387,6 +390,7 @@
             class="video__content__frame"
           />
           <svg
+          class="video__play"
             xmlns="http://www.w3.org/2000/svg"
             width="60"
             height="60"
@@ -443,21 +447,25 @@
               Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id
               sem?
             </span>
-            <svg
-              width="26"
-              height="27"
-              viewBox="0 0 26 27"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="13" cy="13.5" r="13" fill="#EBEDEE" />
-              <path
-                d="M8.48242 13.5L17.5166 13.5"
-                stroke="#343A40"
-                stroke-width="1.5"
-                stroke-linecap="round"
-              />
-            </svg>
+            <div class="open__close__tag">
+              <svg 
+                width="26"
+                height="27"
+                viewBox="0 0 26 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="13" cy="13.5" r="13" fill="#EBEDEE" />
+                <path
+                  d="M8.48242 13.5L17.5166 13.5"
+                  stroke="#343A40"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+
+            </div>
+            
           </div>
           <div class="quetions__article__discription">
             Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem.
@@ -476,27 +484,25 @@
         <div class="quetions__article">
           <div class="quetions__article__heading">
             <span> Lorem ipsum dolor sit amet consectetur? </span>
-            <svg
-              width="26"
-              height="27"
-              viewBox="0 0 26 27"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="13" cy="13.5" r="13" fill="#EBEDEE" />
-              <path
-                d="M13 9L13 18"
-                stroke="#343A40"
-                stroke-width="1.5"
-                stroke-linecap="round"
-              />
-              <path
-                d="M8.48242 13.5L17.5166 13.5"
-                stroke="#343A40"
-                stroke-width="1.5"
-                stroke-linecap="round"
-              />
-            </svg>
+            <div class="open__close__tag">
+              <svg 
+                width="26"
+                height="27"
+                viewBox="0 0 26 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="13" cy="13.5" r="13" fill="#EBEDEE" />
+                <path
+                  d="M8.48242 13.5L17.5166 13.5"
+                  stroke="#343A40"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+
+            </div>
+      
           </div>
           <div class="quetions__article__discription">
             Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem.
@@ -518,27 +524,26 @@
               Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id
               sem?
             </span>
-            <svg
-              width="26"
-              height="27"
-              viewBox="0 0 26 27"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle cx="13" cy="13.5" r="13" fill="#EBEDEE" />
-              <path
-                d="M13 9L13 18"
-                stroke="#343A40"
-                stroke-width="1.5"
-                stroke-linecap="round"
-              />
-              <path
-                d="M8.48242 13.5L17.5166 13.5"
-                stroke="#343A40"
-                stroke-width="1.5"
-                stroke-linecap="round"
-              />
-            </svg>
+
+            <div class="open__close__tag">
+              <svg 
+                width="26"
+                height="27"
+                viewBox="0 0 26 27"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="13" cy="13.5" r="13" fill="#EBEDEE" />
+                <path
+                  d="M8.48242 13.5L17.5166 13.5"
+                  stroke="#343A40"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+
+            </div>
+            
           </div>
           <div class="quetions__article__discription">
             Lorem ipsum dolor sit amet consectetur. Viverra nulla metus id sem.
@@ -631,46 +636,171 @@
         <p class="footer__license">© Мой Дом 3D 2023 Копирование запрещено</p>
       </section>
     </footer>
+    <div class="slider__modal__slider">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <div class="close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              width="35"
+              height="35"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M13.41 12l4.3-4.29a1 1 0 1 0-1.42-1.42L12 10.59l-4.29-4.3a1 1 0 0 0-1.42 1.42l4.3 4.29l-4.3 4.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l4.29-4.3l4.29 4.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42z"
+              />
+            </svg>
+          </div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkWDr_HlVQNAoKm1UFnhgmE6aoG6odA9dV7oewBDitCKZWFEpsy6m4AnM0LMmUaVMGteU&usqp=CAU"
+            style="width: 100%"
+          />
+          <div class="text">Caption Text</div>
+        </div>
 
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <div class="close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              width="35"
+              height="35"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M13.41 12l4.3-4.29a1 1 0 1 0-1.42-1.42L12 10.59l-4.29-4.3a1 1 0 0 0-1.42 1.42l4.3 4.29l-4.3 4.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l4.29-4.3l4.29 4.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42z"
+              />
+            </svg>
+          </div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvOk_GbpZd7ev3GHZyF1Mqm8kvs7cFmaHbIHIhFdg3AY2x19rtfV8uqP0vLoJs6hpE0gY&usqp=CAU"
+            style="width: 100%"
+          />
+          <div class="text">Caption Two</div>
+        </div>
 
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <div class="close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              width="35"
+              height="35"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M13.41 12l4.3-4.29a1 1 0 1 0-1.42-1.42L12 10.59l-4.29-4.3a1 1 0 0 0-1.42 1.42l4.3 4.29l-4.3 4.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l4.29-4.3l4.29 4.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42z"
+              />
+            </svg>
+          </div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1BT6rc9fq0LkvEJaJ2I-SK4uBRQhvtjefBRS2J4S5gzM5t8E_-cxKE-ZP9janJ4l1EZ8&usqp=CAU"
+            style="width: 100%"
+          />
+          <div class="text">Caption Three</div>
+        </div>
 
+        <div class="mySlides fade">
+          <div class="numbertext">4 / 5</div>
+          <div class="close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              width="35"
+              height="35"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M13.41 12l4.3-4.29a1 1 0 1 0-1.42-1.42L12 10.59l-4.29-4.3a1 1 0 0 0-1.42 1.42l4.3 4.29l-4.3 4.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l4.29-4.3l4.29 4.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42z"
+              />
+            </svg>
+          </div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoTgiqANT1x3gMipkpuZbrGpRDRKUzmvYa6jjr9x2yrAAjoQzqO5qyXkAsEUMYyKHbMHo&usqp=CAU"
+            style="width: 100%"
+          />
+          <div class="text">Caption Four</div>
+        </div>
 
+        <div class="mySlides fade">
+          <div class="numbertext">5 / 5</div>
+          <div class="close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              aria-hidden="true"
+              role="img"
+              width="35"
+              height="35"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M13.41 12l4.3-4.29a1 1 0 1 0-1.42-1.42L12 10.59l-4.29-4.3a1 1 0 0 0-1.42 1.42l4.3 4.29l-4.3 4.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l4.29-4.3l4.29 4.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42z"
+              />
+            </svg>
+          </div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcMi4HZTxG79pJmSyK4Q6OIyaTBUmSOMHwBoN2fcNyx9eyW6unrLgf0rppNUQlgLWSKco&usqp=CAU"
+            style="width: 100%"
+          />
+          <div class="text">Caption Five</div>
+        </div>
 
-    
-    <div class="slideshow-container">
-
-      <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src="https://images5.1000ps.net/b-f_W2349855-honda-cbf600-s-abs-635464556855116063.jpg" style="width:100%">
-        <div class="text">Caption Text</div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
       </div>
-    
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img src="https://mcn-images.bauersecure.com/wp-images/3637/1cbf600ij029-01.jpg" style="width:100%">
-        <div class="text">Caption Two</div>
+      <br />
+
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
       </div>
-    
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img src="https://mymotoshop.ru/image/catalog/5.Novosti/2019/012/model-mo-honda-cbf-600.jpg" style="width:100%">
-        <div class="text">Caption Three</div>
-      </div>
-    
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-    <br>
-    
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
+    <div class="video__block">
+      <div class="close__video">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          aria-hidden="true"
+          role="img"
+          width="35"
+          height="35"
+          preserveAspectRatio="xMidYMid meet"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M13.41 12l4.3-4.29a1 1 0 1 0-1.42-1.42L12 10.59l-4.29-4.3a1 1 0 0 0-1.42 1.42l4.3 4.29l-4.3 4.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l4.29-4.3l4.29 4.3a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42z"
+          />
+        </svg>
+      </div>
+      <iframe class="video__block__frame" width="650" height="488" src="https://www.youtube.com/embed/znY973Vn0Go?enablejsapi=1" frameborder="0" allowfullscreen id='v1'>
+        
     </div>
-
-
   </body>
 </html>
