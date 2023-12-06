@@ -1,0 +1,19 @@
+@mixin container {
+  padding-left: calc(50% - $widthSite / 2);
+  padding-right: calc(50% - $widthSite / 2);
+}
+
+%mainSiteFont {
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+%siteFlex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center 
+}

@@ -1,0 +1,21 @@
+@import "vars", "mixins", "header", "index", "footer";
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+a {
+  color: black;
+}
+
+.center {
+  @include container;
+}
+
+.body {
+  @extend %mainSiteFont;
+  overflow: hidden;
+  color: $colorSiteText;
+}

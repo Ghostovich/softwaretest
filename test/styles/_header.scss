@@ -1,0 +1,88 @@
+.header {
+  @extend %mainSiteFont;
+  font-size: 16px;
+  @extend %siteFlex;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  &__logo {
+    @extend %siteFlex;
+    gap: 10px;
+    font-size: 40px;
+    transition: 0.3s;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  &__nav {
+    @extend %siteFlex;
+    gap: 40px;
+  }
+  &__nav__menu {
+    @extend %siteFlex;
+    gap: 25px;
+    &__link {
+      color: $colorLabel;
+      transition: 0.3s;
+      &:hover {
+      color: black;
+      }
+    }
+  }
+  &__buttons {
+    @extend %siteFlex;
+    gap: 12px;
+    &__load {
+      color: #fff;
+      border: none;
+      @extend %mainSiteFont;
+      font-weight: 600;
+      @extend %siteFlex;
+      width: 126px;
+      padding: 13px 19px;
+      gap: 8px;
+      border-radius: 5px;
+      background: var(
+        --download,
+        linear-gradient(268deg, #0057ff 1.64%, #259bff 97.95%)
+      );
+      box-shadow: 0px 2px 22px 0px rgba(0, 87, 255, 0.43);
+      transition: 0.3s;
+      &:hover {
+        color: #0057ff;
+        background: white;
+        border: 1px solid #0057ff;
+        & path {
+          fill: #0057ff;
+        }
+      }
+    }
+    &__buy {
+      background: white;
+      color: #19b37d;
+      @extend %mainSiteFont;
+      font-weight: 600;
+      display: inline-flex;
+      padding: 13px 19px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 5px;
+      border: 1px solid var(--buy, #19b37d);
+      box-shadow: 0px 2px 22px 0px rgba(23, 120, 107, 0.43);
+      transition: 0.3s;
+      &:hover {
+        color: white;
+        background: #19b37d;
+        & path {
+          fill: white;
+        }
+      }
+    }
+  }
+}
+
+.like {
+  @extend %siteFlex;
+  gap: 6px;
+}
